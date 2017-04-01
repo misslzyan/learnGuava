@@ -1,12 +1,15 @@
-*.class
+#过滤数据库文件、sln解决方案文件、配置文件  
+*.project
+*.settings
+*.project
+*.classpath
+*.settings
+*.iws
+*.ipr
+*.idea
+*.iml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#过滤文件夹Debug,Release,obj  
+*/target/
+.idea/
+*/bin/
