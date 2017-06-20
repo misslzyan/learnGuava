@@ -59,9 +59,11 @@
             <artifactId>jsr305</artifactId>
             <version>3.0.1</version>
         </dependency>
-
-
-
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport</artifactId>
+            <version>4.1.12.Final</version>
+        </dependency>
 
 
     </dependencies>
